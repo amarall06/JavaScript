@@ -1,0 +1,1 @@
+console.log('O Console funcionou corretamente!')

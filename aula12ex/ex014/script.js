@@ -1,4 +1,4 @@
-function carregar(){
+function carregar(){ // function serve para calcular ou exercutar algo, sempre usar ele
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new Date

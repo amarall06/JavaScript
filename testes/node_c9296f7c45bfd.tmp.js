@@ -1,0 +1,1 @@
+console.log(`Voce tem ${idade} anos`)

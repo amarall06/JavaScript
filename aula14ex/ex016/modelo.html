@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercicio</title>
+    <title>Super contador</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
-            test...
+        <div id="dados">
+           <p>Inicio: <input type="text" name="incio" id="txti"> </p>
+           <p>Fim: <input type="text" name="fim" id="txtf" > </p>
+           <p>Passo: <input type="text" name="passo" id="txtp" > </p>
+           <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
-        <div>
-            Olá!
+        <div id="res">
+            Preparando a contagem..
         </div>
     </section>
     <footer>
         <p>&copy;Amaral</p>
     </footer>
 
-    <script src="script.js"></script> <!-- link para o javascript separado! -->
+    <script src="script.js"></script>
 </body>
 </html>
